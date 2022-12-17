@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="/feedback.css">
 </head>
+
 <body>
-      
-     <!---->
-     <div class="background">
-      <div>
-        <Image src="/feedback.png" width={200} height={100} />
-      </div>
 
-      <!---->
+    <!---->
+    <div class="background">
+        <div>
 
-      <div>
-        <h1>Feedback form</h1>
-      </div>
+        </div>
 
-      <div>
-        <form action="/send-data-here" method="post">
-          <label for="first">Write down your review:</label>
-          <br />
-          <br />
-         
-          <textarea rows="8" cols="40" name="description">
+        <!---->
+
+        <div class="heading">
+            <h1>Feedback form</h1>
+        </div>
+
+        <div class="form">
+            <form>
+                <label for="first"> <h2>Write down your review:</h2></label>
+                <br />
+                <br />
+
+                <textarea rows="8" cols="40" name="description">
           </textarea>
-        </form>
-      </div>
+        </br>
+    </br>
+                <button className="btn p+20">
+                    <a href="/index.html">Submit</a>
+                </button>
+            </form>
+        </div>
 
-     
-      <div>
-        <button className="btn p+20">
-          <a href="/index.html">Submit</a>
-        </button>
-      </div>
+
+
     </div>
 </body>
+
 </html>

@@ -10,6 +10,8 @@
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #781919;
     background: url("./feedback.png");
     background-size: cover;
@@ -17,13 +19,51 @@
     width: 100vw;
 }
 
-.heading
-{
-    margin: 30px;
-    color: aliceblue;
+.heading{
+    color: #dbdbdb;
 }
+
 .form
 {
-    margin: 30px;
-    background-color: transparent;
+    padding: 10px;
+    width: max-content;
+    background-color: #6d6d6d;
+    border-radius: 25px;
+}
+
+.form form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: medium;
+}
+
+.submit{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: #98989860;
+}
+
+
+.form textarea
+{
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    border: none;  
+    height: 35vh;
+    width: 40vw;
+    font-size: x-large;
+    background-color: #9aa29fe1; 
+
 }

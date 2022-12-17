@@ -66,3 +66,17 @@
     font-size: x-large;
     background-color: #9aa29fe1; 
 }
+
+
+.back a{
+    content: "";
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+    background: url("./back.png");
+    background-size: cover;
+}

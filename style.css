@@ -12,12 +12,41 @@ html, body {
 
 .header {
     width: 100%;
+    min-height: max-content;
+    height: max-content;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: #202020;
+    background-color: green;
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.left {
+    height: 100%;
+    padding-left: 50px;
+}
+.right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.right a {
+    color: #dbdbdb;
+    font-size: 30px;
+    text-decoration: none;
+}
+.right a:hover {
+    text-decoration: underline;
+}
+.header .icon {
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: url('./icon.jpg');
+    background-size: cover;
 }
 
 .main {

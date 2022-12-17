@@ -29,8 +29,9 @@ html, body {
 }
 .right {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
+    margin-right: 50px;
 }
 
 .right a {

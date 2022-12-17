@@ -1,8 +1,54 @@
 
+body{
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    min-height: max-content;
+    height: max-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: green;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.left {
+    height: 100%;
+    padding-left: 50px;
+}
+.right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.right a {
+    color: #dbdbdb;
+    font-size: 30px;
+    text-decoration: none;
+}
+.right a:hover {
+    text-decoration: underline;
+}
+.header .icon {
+    height: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: url('./icon.jpg');
+    background-size: cover;
+}
+
 
 .container{
+    margin-top: 15vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    overflow-x: hidden;
 }
 
 .item

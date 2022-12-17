@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    background-color: #101010;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.auth-box h2 {
+    color: #dbdbdb;
+}
+.auth-box input {
+    min-width: 20vw;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.prompt {
+    display: flex;
+    gap: 10px;
+    color: #dbdbdb;
+}
+.prompt a {
+    color: lightblue;
+}
+.auth-box .button {
+    background-color: black;
+    color: #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+}

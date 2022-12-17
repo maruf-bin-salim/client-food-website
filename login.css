@@ -64,6 +64,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     width: max-content;
+    text-decoration: none;
 }
 
 .back a{

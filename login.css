@@ -65,3 +65,16 @@ body {
     border-radius: 5px;
     width: max-content;
 }
+
+.back a{
+    content: "";
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #dbdbdb;
+    background: url("./back.png");
+    background-size: cover;
+}

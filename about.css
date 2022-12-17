@@ -46,7 +46,7 @@ html, body {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: black;
-    background: url("./feedback.png");
+    background-color: #dbdbdb;
+    background: url("./back.png");
     background-size: cover;
 }
